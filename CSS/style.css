@@ -1,0 +1,67 @@
+* {
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Alatsi';
+}
+
+body {
+    background-color: #eee;
+}
+
+nav {
+    background-color: rgb(10, 10, 39);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav > .left {
+    display: flex;
+}
+
+nav > .left > .logo {
+    padding: 0 7px;
+    font-size: xx-large;
+}
+
+nav > .left > .logo > a > i:hover {
+    color: rgb(196, 194, 194);
+}
+
+nav > .left > .search {
+    padding:  6px 10px;
+
+}
+
+nav > .left > .search > input {
+    /* font-size: x-large; */
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: rgb(10, 10, 39);
+    border: 1px solid rgb(128, 127, 127);
+}
+
+nav > .left > .links {
+    padding: 7px;
+}
+
+nav > .left > .links > li {
+    display: inline;
+    padding:  0 7px;
+}
+
+nav > .left > .links > li >a:hover {
+    color: rgb(196, 194, 194);
+}
+
+nav > .right > a > i:hover {
+    color: rgb(196, 194, 194);
+}
+
+nav > .right > .bell {
+    font-size: larger;
+    padding: 0 10px;
+}
